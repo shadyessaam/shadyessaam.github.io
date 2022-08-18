@@ -1,0 +1,70 @@
+body{
+    font-family: 'Montserrat'
+}
+
+#heading{
+    min-height: 70vh;
+    background: url(../images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+
+.headingbox{
+    margin:8%;
+
+    color:white;
+}
+
+#coll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0%;
+}
+
+#txtcoll{
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.whyus{
+    min-height: 70vh;
+}
+
+.whyus h3{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.features{
+    margin-left: 6%;
+}
+
+footer{
+    background-color: #0E8684;
+    height: 100px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.social li{
+    list-style: none;
+    display: inline;
+    margin:5px;
+}
+
+.footnote{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 300;
+    font-size: 8pt;
+}
